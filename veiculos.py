@@ -17,7 +17,7 @@ def imprime_lista_de_veiculos(lista_de_veiculos):
     
     
 def cria_novo_veiculo():
-    novoveiculo = "Insira "
+    novoveiculo = input("Insira os dados do novo veículo")
     """Pede ao utilizador para introduzir um novo veiculo
 
     :return: dicionario com um veiculo na forma
@@ -29,9 +29,6 @@ def cria_novo_veiculo():
     ano = input("Ano: ")
     cor = input("Cor: ")
     
-    # TODO: Pedir o resto dos dados do veiculo, e não esquecer de os guardar no dicionario
-    # ...
-
     veiculo = {"Marca: ": marca,
                "Matricula: ": matricula,
                "Ano: ": ano,
