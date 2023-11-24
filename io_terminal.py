@@ -1,6 +1,7 @@
 from tabulate import tabulate
 
 
+<<<<<<< HEAD
 def pergunta_id(questao, lista, mostra_lista=False):
     """TODO: documentação
 
@@ -54,3 +55,12 @@ def imprime_lista(cabecalho, lista):
         lista_a_imprimir.extend([[id] + list(d.values()) for id, d in enumerate(lista)])
 
         print(tabulate(lista_a_imprimir, headers="firstrow", tablefmt='psql'))
+=======
+# TODO: Copie para aqui o código de cada uma das funções nos
+# ficheiros com o nome io_terminal*.py e faça um commit de cada vez
+# Quando este ficheiro estiver completo com todas as suas funções,
+# deve ser o unico ficheiro io_terminal.py existente, deve apagar
+# todos os outros ficheiros io_terminal-*.py, e inclusive estes comentários
+
+# ...
+>>>>>>> 89d0c3ecb2cb9cc51308fdea8380f4bf4d157a79
