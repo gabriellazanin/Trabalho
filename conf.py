@@ -26,3 +26,5 @@ language = 'Portugues'
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+html_baseurl = 'https://gabriellazanin.github.io/Trabalho-Oficina'
+html_output = 'build/html'
