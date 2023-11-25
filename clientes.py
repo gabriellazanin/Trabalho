@@ -1,11 +1,33 @@
 from io_terminal import imprime_lista
 
 nome_ficheiro_lista_de_clientes = "lista_de_clientes.pk"
+    
+def criar_novo_cliente():
+    """Pedir os dados de um novo cliente
 
-# TODO: Copie para aqui o código de cada uma das funções nos
-# ficheiros com o nome clientes-*.py e faça um commit de cada vez
-# Quando este ficheiro estiver completo com todas as suas funções,
-# deve ser o unico ficheiro clientes.py existente, deve apagar
-# todos os outros ficheiros clientes-*.py, e inclusive estes comentários
+    :return: dicionario com o novo cliente, {"nome": <<nome>>, "nif": <<nif>>, ...}
+    """     
+     print ("Dados do novo cliente: ")
+    
+    nome = input("Nome: ")
+    nascimento = input("Ano de nascimento: ")
+    nif = input ("NIF: ")
+    morada = input ("Morada: ")
+    telemovel = input("Telemóvel: ")
+    email = input ("E-mail: ")
+    
+    novocliente: {"Nome": nome, 
+                  "Ano de nascimento: ": nascimento,
+                  "Nif": nif, 
+                  "Morada": morada, 
+                  "Telemovel": telemovel, 
+                  "Email": email}
 
-# ...
+    return novocliente
+
+def imprime_lista_de_clientes(lista_de_clientes):
+    """TODO: documentação"""
+
+    imprime_lista(cabecalho="Lista de Clintes", lista=lista_de_clientes)
+
+  
