@@ -11,11 +11,13 @@ def cria_novo_veiculo():
     """
 
     marca = input("Marca: ")
+    modelo = input ("Modelo: ")
     matricula = input("Matricula: ").upper()
     ano = input("Ano: ")
     cor = input("Cor: ")
     
     veiculo = {"Marca: ": marca,
+               "Modelo: ": modelo, 
                "Matricula: ": matricula,
                "Ano: ": ano,
                "Cor: ": cor}
