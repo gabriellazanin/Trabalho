@@ -7,7 +7,7 @@ def criar_novo_cliente():
 
     :return: dicionario com o novo cliente, {"nome": <<nome>>, "nif": <<nif>>, ...}
     """     
-     print ("Dados do novo cliente: ")
+    print ("Dados do novo cliente: ")
     
     nome = input("Nome: ")
     nascimento = input("Ano de nascimento: ")
