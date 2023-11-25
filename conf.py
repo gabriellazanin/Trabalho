@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Oficina'
+project = 'Trabalho Oficina'
 copyright = '2023, Gabriella Zanin'
 author = 'Gabriella Zanin'
 release = '1'
