@@ -2,15 +2,11 @@ from io_terminal import imprime_lista
 
 nome_ficheiro_lista_de_veiculos = "lista_de_veiculos.pk"
 
-    
 def cria_novo_veiculo():
     
-    print("Dados do novo veículo: ")
-    """Pede ao utilizador para introduzir um novo veiculo
-
-    :return: dicionario com um veiculo na forma
-        {"marca": <<marca>>, "matricula": <<matricula>>, ...}
-    """
+    print("Dados do novo veículo: ")            """Pede ao utilizador para introduzir um novo veiculo
+                                                    :return: dicionario com um veiculo na forma
+                                                    {"marca": <<marca>>, "matricula": <<matricula>>, ...}     """
 
     marca = input("Marca: ")
     matricula = input("Matricula: ").upper()
