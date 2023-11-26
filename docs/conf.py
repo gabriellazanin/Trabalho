@@ -9,6 +9,8 @@
 import os
 import sys
 
+sys.path.insert(0, '/home/gabriellazanin/ualg/adc/base/Trabalho_Oficina')
+
 project = 'Trabalho Oficina'
 copyright = '2023, Grupo C'
 author = 'Gabriella Zanin, David Valente, Sofia Martins'
