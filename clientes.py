@@ -18,10 +18,10 @@ def criar_novo_cliente():
     
     novocliente: {"Nome": nome, 
                   "Ano de nascimento: ": nascimento,
-                  "Nif": nif, 
+                  "NIF": nif, 
                   "Morada": morada, 
-                  "Telemovel": telemovel, 
-                  "Email": email}
+                  "Telemóvel": telemovel, 
+                  "E-mail": email}
 
     return novocliente
 

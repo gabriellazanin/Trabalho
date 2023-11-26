@@ -12,9 +12,12 @@ sys.path.insert(0, os.path.abspath(r'C:\Users\gabi-\OneDrive\Documentos\adc\base
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import os
+import sys
+
 project = 'Trabalho Oficina'
-copyright = '2023, Gabriella Zanin'
-author = 'Gabriella Zanin'
+copyright = '2023, Grupo C'
+author = 'Gabriella Zanin, David Valente, Sofia Martins'
 release = '1'
 
 # -- General configuration ---------------------------------------------------
@@ -34,7 +37,7 @@ language = 'Portugues'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+html_theme = 'bizstyle'
 html_static_path = ['_static']
 
 # -- Options for todo extension ----------------------------------------------

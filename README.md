@@ -1,18 +1,17 @@
-# README
+# README Trabalho ADC 
 
-Este README documenta as etapas necessárias para colocar seu aplicativo em funcionamento.
+Este README documenta as etapas necessárias para o funcionamento correto da sua aplicação.
 
 ### Para que serve este repositório?
 
-* Resumo rápido...
-* Versão...
+* Este repositório é um 
 * [Sintaxe básica de gravação e formatação no GitHub](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ### Como faço para configurar?
 
 * Resumo da configuração...
 * Configuração...
-* Dependências
+* Sphinx, Python
 
     Para criar um ambiente virtual
 
@@ -32,9 +31,8 @@ Este README documenta as etapas necessárias para colocar seu aplicativo em func
     $ pip install -r requirements.txt
     ```
 
-* Configuração de banco de dados...
-* Como fazer testes...
-* Instruções de implantação...
+* Pretendemos usar um postgres no futuro para guardar as fatura e dados dos clientes.
+* Precisamos de contribuição para testes com pytest neste projeto.
 
 #### Documentação
 
@@ -55,11 +53,9 @@ Posteriormente deve configurar o ficheiro `doc\config.py` com as alterações qu
 
 ### Diretrizes de contribuição
 
-* Testes de escrita...
-* Revisão de código...
-* Outras diretrizes...
+* Quem tiver muita certeza do que está a fazer, pode alterar.
+* Repositorio privado, restrito a alunos da UALG
 
 ### Com quem devo falar?
 
-* Proprietário ou administrador do repo...
-* Outro contato da comunidade ou equipe...
+* David Valente, Gabriella Zanin, Sofia Martins
