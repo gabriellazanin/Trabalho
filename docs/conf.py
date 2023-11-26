@@ -6,6 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import os
+import sys
+
 project = 'Trabalho Oficina'
 copyright = '2023, Grupo C'
 author = 'Gabriella Zanin, David Valente, Sofia Martins'
