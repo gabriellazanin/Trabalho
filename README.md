@@ -1,4 +1,4 @@
-# README Trabalho ADC gerar documentos via sphinx
+# README Trabalho ADC 
 
 Este README documenta as etapas necessárias para colocar seu aplicativo em funcionamento.
 
