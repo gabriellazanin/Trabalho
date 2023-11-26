@@ -33,7 +33,8 @@ language = 'Portugues'
 
 html_theme = 'bizstyle'
 html_static_path = ['_static']
-
+html_baseurl = 'https://gabriellazanin.github.io/Trabalho-Oficina'
+html_output = 'build/html'
 # -- Options for todo extension ----------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/extensions/todo.html#configuration
 
