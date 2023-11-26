@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Trabalho Oficina'
-copyright = '2023, Gabriella Zanin'
-author = 'Gabriella Zanin'
+copyright = '2023, Grupo C'
+author = 'Gabriella Zanin, David Valente, Sofia Martins'
 release = '1'
 
 # -- General configuration ---------------------------------------------------
