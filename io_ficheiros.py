@@ -5,7 +5,6 @@ from faturas import nome_ficheiro_lista_de_faturas
 
 from veiculos import nome_ficheiro_lista_de_veiculos
 
-
 def le_de_ficheiro(nome_ficheiro):
     """Lê os dados de um ficheiro
 
@@ -50,4 +49,3 @@ def carrega_as_listas_dos_ficheiros():
     lista_de_faturas = le_de_ficheiro(nome_ficheiro_lista_de_faturas)
 
     return  lista_de_veiculos, lista_de_clientes, lista_de_faturas
-
