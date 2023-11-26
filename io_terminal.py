@@ -41,7 +41,6 @@ def imprime_lista(cabecalho, lista):
     :param cabecalho: Cabecalho para a listagem
     :param lista: Lista a ser impressa
     """
-
     print(cabecalho)
 
     if (len(lista) == 0):
