@@ -4,7 +4,6 @@ from io_terminal import imprime_lista, pergunta_id
 
 nome_ficheiro_lista_de_faturas = "lista_de_faturas.pk"
 
-
 def cria_nova_fatura(lista_de_clientes, lista_de_veiculos):
    
     id_cliente = pergunta_id(questao="Qual o id do cliente?", lista=lista_de_clientes, mostra_lista=True)
@@ -19,7 +18,6 @@ def cria_nova_fatura(lista_de_clientes, lista_de_veiculos):
               "Data": date.today()}
 
     return fatura
-
 
 def imprime_lista_de_faturas(lista_de_faturas):
     for fatura in lista_fatura:
